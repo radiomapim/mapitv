@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAPIM TV</title>
+    <style>
+        .video-container {
+            position: relative;
+            width: 854px;
+            margin: 20px auto;
+        }
+        .mapim-logo {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            width: 80px;
+            opacity: 0.8;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <img class="mapim-logo" src="logo-mapim.png" alt="MAPIM">
+    </div>
+    
+    <!-- Repita para outros vídeos -->
+</body>
+</html>
