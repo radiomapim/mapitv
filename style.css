@@ -1,0 +1,23 @@
+#player-container {
+    position: relative;
+    width: 854px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+#watermark {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.7;
+    width: 100px;
+    z-index: 100;
+}
+
+#playlist {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
